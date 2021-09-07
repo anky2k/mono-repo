@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="95" failures="0" time="31.008">
+  <testsuite name="src/analytics/__tests__/mixpanel.test.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:08" time="8.832" tests="4">
+    <testcase classname="------ mixpanel analytics -------should call script inject function on init" name="------ mixpanel analytics -------should call script inject function on init" time="0.005">
+    </testcase>
+    <testcase classname="------ mixpanel analytics -------should push events to queue when the script has not loaded" name="------ mixpanel analytics -------should push events to queue when the script has not loaded" time="0.001">
+    </testcase>
+    <testcase classname="------ mixpanel analytics -------should flush the queue once script is loaded" name="------ mixpanel analytics -------should flush the queue once script is loaded" time="0.001">
+    </testcase>
+    <testcase classname="------ mixpanel analytics -------should not queue events once script has been loaded" name="------ mixpanel analytics -------should not queue events once script has been loaded" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/network/__tests__/parse-response.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:08" time="8.922" tests="5">
+    <testcase classname="-should json-parse responses with Content-Type: application/json" name="-should json-parse responses with Content-Type: application/json" time="0.007">
+    </testcase>
+    <testcase classname="-should text-parse responses with Content-Type: test/json" name="-should text-parse responses with Content-Type: test/json" time="0.001">
+    </testcase>
+    <testcase classname="-should handle error responses with Content-Type: application/json" name="-should handle error responses with Content-Type: application/json" time="0.001">
+    </testcase>
+    <testcase classname="-should handle error responses with Content-Type: text/plain" name="-should handle error responses with Content-Type: text/plain" time="0">
+    </testcase>
+    <testcase classname="-should handle link headers for pagination" name="-should handle link headers for pagination" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/analytics/__tests__/async-script-loader.test.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:08" time="9.1" tests="3">
+    <testcase classname="------ async script loader -------should throw a warning if no parameters are passed to the inject function" name="------ async script loader -------should throw a warning if no parameters are passed to the inject function" time="0.013">
+    </testcase>
+    <testcase classname="------ async script loader -------should create a script tag with the script src" name="------ async script loader -------should create a script tag with the script src" time="0.024">
+    </testcase>
+    <testcase classname="------ async script loader -------should create a script tag with the script url" name="------ async script loader -------should create a script tag with the script url" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/utils/__tests__/functional.test.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:17" time="0.533" tests="5">
+    <testcase classname="-should return the value from the function which resolves with a truthy value" name="-should return the value from the function which resolves with a truthy value" time="0.001">
+    </testcase>
+    <testcase classname="-should return the value from the first function which resolves with a truthy value" name="-should return the value from the first function which resolves with a truthy value" time="0.001">
+    </testcase>
+    <testcase classname="-should return last value when all are falsy" name="-should return last value when all are falsy" time="0">
+    </testcase>
+    <testcase classname="-should run every function in the list on the input to give final output" name="-should run every function in the list on the input to give final output" time="0.001">
+    </testcase>
+    <testcase classname="-should call the promise only once" name="-should call the promise only once" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/utils/__tests__/string.test.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:17" time="0.778" tests="17">
+    <testcase classname="-should trim the first character in the string" name="-should trim the first character in the string" time="0.003">
+    </testcase>
+    <testcase classname="-should trim the last character in the string" name="-should trim the last character in the string" time="0">
+    </testcase>
+    <testcase classname="-should trim the edge characters in the string" name="-should trim the edge characters in the string" time="0.001">
+    </testcase>
+    <testcase classname="-should trim and convert string into lower case" name="-should trim and convert string into lower case" time="0.001">
+    </testcase>
+    <testcase classname="-trimFirstChar should return empty for null undefined and empty" name="-trimFirstChar should return empty for null undefined and empty" time="0">
+    </testcase>
+    <testcase classname="-trimFirstChar should return empty for null undefined and empty" name="-trimFirstChar should return empty for null undefined and empty" time="0.001">
+    </testcase>
+    <testcase classname="-trimFirstChar should return empty for null undefined and empty" name="-trimFirstChar should return empty for null undefined and empty" time="0">
+    </testcase>
+    <testcase classname="-trimLastChar should return empty for null undefined and empty" name="-trimLastChar should return empty for null undefined and empty" time="0">
+    </testcase>
+    <testcase classname="-trimLastChar should return empty for null undefined and empty" name="-trimLastChar should return empty for null undefined and empty" time="0.001">
+    </testcase>
+    <testcase classname="-trimLastChar should return empty for null undefined and empty" name="-trimLastChar should return empty for null undefined and empty" time="0">
+    </testcase>
+    <testcase classname="-trimEdges should return empty for null undefined and empty" name="-trimEdges should return empty for null undefined and empty" time="0.001">
+    </testcase>
+    <testcase classname="-trimEdges should return empty for null undefined and empty" name="-trimEdges should return empty for null undefined and empty" time="0">
+    </testcase>
+    <testcase classname="-trimEdges should return empty for null undefined and empty" name="-trimEdges should return empty for null undefined and empty" time="0">
+    </testcase>
+    <testcase classname="-trimLowerCase should return empty for null undefined and empty" name="-trimLowerCase should return empty for null undefined and empty" time="0.001">
+    </testcase>
+    <testcase classname="-trimLowerCase should return empty for null undefined and empty" name="-trimLowerCase should return empty for null undefined and empty" time="0">
+    </testcase>
+    <testcase classname="-trimLowerCase should return empty for null undefined and empty" name="-trimLowerCase should return empty for null undefined and empty" time="0">
+    </testcase>
+    <testcase classname="-formatAmount should return comma append amount with rupee symbol" name="-formatAmount should return comma append amount with rupee symbol" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/components/commons/drawer/__tests__/index.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:08" time="19.968" tests="2">
+    <testcase classname="Drawer Component-should not be visible by default" name="Drawer Component-should not be visible by default" time="0.074">
+    </testcase>
+    <testcase classname="Drawer Component-should call a function on click of close button" name="Drawer Component-should call a function on click of close button" time="0.012">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/analytics/__tests__/index.test.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:28" time="0.462" tests="3">
+    <testcase classname="----- analytics index ------should call init method from imported analytics module" name="----- analytics index ------should call init method from imported analytics module" time="0.003">
+    </testcase>
+    <testcase classname="----- analytics index ------should call track method from imported analytics module" name="----- analytics index ------should call track method from imported analytics module" time="0.002">
+    </testcase>
+    <testcase classname="----- analytics index ------should register unload event on window on init" name="----- analytics index ------should register unload event on window on init" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/components/commons/dialog/__tests__/index.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:17" time="11.701" tests="1">
+    <testcase classname="Dialog Component-should not be visible by default" name="Dialog Component-should not be visible by default" time="0.062">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/components/commons/tray/__tests__/page-indicators.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:08" time="20.807" tests="5">
+    <testcase classname="Page Indicators-should render the page indicators if children are greater than 1 page size" name="Page Indicators-should render the page indicators if children are greater than 1 page size" time="0.075">
+    </testcase>
+    <testcase classname="Page Indicators-should not render the page indicators if showIndicators property is not set true" name="Page Indicators-should not render the page indicators if showIndicators property is not set true" time="0.048">
+    </testcase>
+    <testcase classname="Page Indicators-should not render the page indicators for just 1 page" name="Page Indicators-should not render the page indicators for just 1 page" time="0.018">
+    </testcase>
+    <testcase classname="Page Indicators-should render page indicators as per page size and total children" name="Page Indicators-should render page indicators as per page size and total children" time="0.031">
+    </testcase>
+    <testcase classname="Page Indicators-should render extra page indicators for children that overlap exact page sizes" name="Page Indicators-should render extra page indicators for children that overlap exact page sizes" time="0.026">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/components/commons/tray/__tests__/index.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:28" time="0.817" tests="3">
+    <testcase classname="Tray Component-should render the tray container and respective tray content" name="Tray Component-should render the tray container and respective tray content" time="0.024">
+    </testcase>
+    <testcase classname="Tray Component-should be able to render single tray content" name="Tray Component-should be able to render single tray content" time="0.009">
+    </testcase>
+    <testcase classname="Tray Component-should attach intersection observer on every tray content" name="Tray Component-should attach intersection observer on every tray content" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/hooks/__tests__/use-dialog.test.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:08" time="22.126" tests="5">
+    <testcase classname="-should be a function" name="-should be a function" time="0.003">
+    </testcase>
+    <testcase classname="-should return an object" name="-should return an object" time="0.032">
+    </testcase>
+    <testcase classname="-should return close and show: functions" name="-should return close and show: functions" time="0.003">
+    </testcase>
+    <testcase classname="-should be able show and hide the dialog box" name="-should be able show and hide the dialog box" time="0.047">
+    </testcase>
+    <testcase classname="-should render with overlay and hide by hiding it" name="-should render with overlay and hide by hiding it" time="0.011">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/network/__tests__/index.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:29" time="1.225" tests="5">
+    <testcase classname="-should make a get request" name="-should make a get request" time="0.05">
+    </testcase>
+    <testcase classname="-should make a delete request" name="-should make a delete request" time="0.003">
+    </testcase>
+    <testcase classname="-should make a post request" name="-should make a post request" time="0.003">
+    </testcase>
+    <testcase classname="-should make a put request" name="-should make a put request" time="0.003">
+    </testcase>
+    <testcase classname="-should make a patch request" name="-should make a patch request" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/analytics/__tests__/queue.test.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:30" time="0.369" tests="4">
+    <testcase classname="analytics queue test cases-should support basic functionalities of a queue" name="analytics queue test cases-should support basic functionalities of a queue" time="0.001">
+    </testcase>
+    <testcase classname="analytics queue test cases-should support push operation" name="analytics queue test cases-should support push operation" time="0.002">
+    </testcase>
+    <testcase classname="analytics queue test cases-should allow to check length of the queue" name="analytics queue test cases-should allow to check length of the queue" time="0.001">
+    </testcase>
+    <testcase classname="analytics queue test cases-should support remove in FIFO manner" name="analytics queue test cases-should support remove in FIFO manner" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/hooks/__tests__/use-drawer.test.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:08" time="22.649" tests="6">
+    <testcase classname="-should be a function" name="-should be a function" time="0.004">
+    </testcase>
+    <testcase classname="-should return an object" name="-should return an object" time="0.035">
+    </testcase>
+    <testcase classname="-should return close and show: functions" name="-should return close and show: functions" time="0.003">
+    </testcase>
+    <testcase classname="-should be able show drawer" name="-should be able show drawer" time="0.051">
+    </testcase>
+    <testcase classname="-should be able hide the drawer on click of close button inside drawer" name="-should be able hide the drawer on click of close button inside drawer" time="0.021">
+    </testcase>
+    <testcase classname="-should render with overlay and hide by hiding it" name="-should render with overlay and hide by hiding it" time="0.011">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/test/components/search-results.test.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:29" time="1.449" tests="1">
+    <testcase classname="Components::SearchResults-renders all items" name="Components::SearchResults-renders all items" time="0.014">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/hooks/__tests__/use-previous.test.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:30" time="0.789" tests="2">
+    <testcase classname="usePreviousValue-should return undefined after the first render" name="usePreviousValue-should return undefined after the first render" time="0.008">
+    </testcase>
+    <testcase classname="usePreviousValue-should return the previous value of a given variable" name="usePreviousValue-should return the previous value of a given variable" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/config.test.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:31" time="0.487" tests="2">
+    <testcase classname="config › when the config is set-returns values" name="config › when the config is set-returns values" time="0.259">
+    </testcase>
+    <testcase classname="config › when the config is set-returns en-in" name="config › when the config is set-returns en-in" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/components/commons/overlay/__tests__/index.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:31" time="0.542" tests="1">
+    <testcase classname="OverLay Component-should be hidden by default" name="OverLay Component-should be hidden by default" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/components/commons/central-loader/__tests__/index.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:31" time="0.489" tests="1">
+    <testcase classname="CentralLoader Component-should render with style" name="CentralLoader Component-should render with style" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/hooks/__tests__/use-loader.test.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:17" time="13.874" tests="4">
+    <testcase classname="-should be a function" name="-should be a function" time="0.017">
+    </testcase>
+    <testcase classname="-should return an object" name="-should return an object" time="0.013">
+    </testcase>
+    <testcase classname="-should have functions to get showLoader and hideLoader" name="-should have functions to get showLoader and hideLoader" time="0.003">
+    </testcase>
+    <testcase classname="-should be able to show and hide loader by calling functions" name="-should be able to show and hide loader by calling functions" time="0.038">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/hooks/__tests__/use-media.test.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:29" time="2.641" tests="6">
+    <testcase classname="-should be a function" name="-should be a function" time="0.002">
+    </testcase>
+    <testcase classname="-should return an object" name="-should return an object" time="0.013">
+    </testcase>
+    <testcase classname="-should return 1 for the desktop break point" name="-should return 1 for the desktop break point" time="0.002">
+    </testcase>
+    <testcase classname="-should return 2 for the tablet break point" name="-should return 2 for the tablet break point" time="0.002">
+    </testcase>
+    <testcase classname="-should return 3 for the tablet break point" name="-should return 3 for the tablet break point" time="0.001">
+    </testcase>
+    <testcase classname="-should return 0 (default) if break point doesnt match" name="-should return 0 (default) if break point doesnt match" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/hooks/__tests__/use-overlay.test.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:18" time="13.419" tests="4">
+    <testcase classname="-should be a function" name="-should be a function" time="0.003">
+    </testcase>
+    <testcase classname="-should return an object" name="-should return an object" time="0.018">
+    </testcase>
+    <testcase classname="-should return hide and show: functions" name="-should return hide and show: functions" time="0.002">
+    </testcase>
+    <testcase classname="-should be able show or hide overlay with hook functions" name="-should be able show or hide overlay with hook functions" time="0.036">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/hooks/__tests__/use-translation.test.js" errors="0" failures="0" skipped="0" timestamp="2021-09-07T13:41:08" time="26.017" tests="6">
+    <testcase classname="-should be a function" name="-should be a function" time="0.004">
+    </testcase>
+    <testcase classname="-should return an object" name="-should return an object" time="0.021">
+    </testcase>
+    <testcase classname="-should return an language prop pointing to default language" name="-should return an language prop pointing to default language" time="0.001">
+    </testcase>
+    <testcase classname="-should have functions to get translations and set language" name="-should have functions to get translations and set language" time="0.002">
+    </testcase>
+    <testcase classname="-should be able fetch and use translations as defined in the locales file" name="-should be able fetch and use translations as defined in the locales file" time="0.22">
+    </testcase>
+    <testcase classname="-should be able to change the language" name="-should be able to change the language" time="0.017">
+    </testcase>
+  </testsuite>
+</testsuites>
